@@ -2,7 +2,6 @@ body{
 	width: 70%;
 	margin:auto;
 	background-color:#E6EEF7;
-	font-size:16px;
 }
 blockquote {
   background: #f9f9f9;
@@ -45,6 +44,26 @@ ul#navbar li :hover{
 }
 
 ul#navbar {
+	border-bottom: 2px solid grey;
+}
+
+ul#tags li{
+	display:inline-block; 
+	margin: 0px 7px;
+	background-color:grey;
+	padding:4px 10px;
+	border-radius:5px;
+	margin-bottom: 10px;
+	font-weight:bold;
+}
+
+
+ul#tags li :hover{
+	border-radius:5px;
+	font-weight:bold;
+}
+
+ul#tags {
 	border-bottom: 2px solid grey;
 }
 
