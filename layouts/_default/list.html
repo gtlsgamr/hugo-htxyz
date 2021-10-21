@@ -11,7 +11,7 @@
     <li class='listspancont'>
       <span class='listspan'>
         <i>
-          <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+          <time style="font-family:'monospace'"datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
             {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
           </time>
         </i>
