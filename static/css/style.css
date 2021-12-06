@@ -5,7 +5,7 @@
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
   /* Body font size. By default, effectively 18.4px, based on 16px as 'root em' */
-  --base-fontsize: 1.45rem;
+  --base-fontsize: 1.20rem;
 
   /* Major third scale progression - see https://type-scale.com/ */
   --header-scale: 1.25;
